@@ -1,0 +1,82 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg,#1e90ff,#6a5acd);
+    margin:0;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+section{
+    background:white;
+    padding:40px;
+    width:400px;
+    border-radius:15px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.2);
+    text-align:center;
+    transition:0.4s;
+}
+
+section:hover{
+    background:black;
+    color:limegreen;
+    transform:scale(1.09);
+    box-shadow:10px 10px 10px limegreen;
+    transition:0.3s;
+}
+h1{
+    color:#1e90ff;
+    margin-bottom:10px;
+}
+
+p{
+    color:#381010;
+    margin-bottom:20px;
+}
+
+ol{
+    text-align:left;
+    padding-left:25px;
+}
+
+li{
+    margin:8px 0;
+    padding:5px;
+    border-bottom:1px solid #eee;
+}
+
+li:hover{
+    background:#f0f8ff;
+    border-radius:5px;
+}
+h6{
+    font-size:14px;
+    color:#333;
+    padding:10px;
+    border-radius:6px;
+    transition:0.3s;
+}
+
+h6:hover{
+    background:black;
+    color:limegreen;
+}
+section:hover h1{
+   color: rgb(20, 174, 17);
+
+}
+section:hover p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    transform:scale(1.2);
+    text-shadow:2px 2px 5px limegreen;
+    transition:0.3s;
+}
+section:hover li{
+    color: greenyellow;
+    transform:scale(1.2);
+    text-shadow:2px 2px 5px limegreen;
+    transition:0.3s;
+}
